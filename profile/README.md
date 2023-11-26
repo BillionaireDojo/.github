@@ -7,3 +7,12 @@ The biggest clash of the century. 🐲💥 The battle royal of humanity's cream.
   style="width:50%; height:50%;"
 />
 </div>
+
+## ⛩️ What is the Billionaire Dojo? ⛩️   
+
+## 🐲 Game mechanics 🐲    
+
+## 🥷🏿 Technology 🥷🏿
+(for geeks and shadowy super coders...)
+
+## 🚀 Roadmap 🚀
