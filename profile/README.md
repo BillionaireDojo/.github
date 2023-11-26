@@ -1,6 +1,6 @@
 # Billionaire Dojo NFT    
 
-The biggest clash of the century. 🐲💥 The battle royal of humanity's cream. ⚔️ The Billionaire Dojo opens its gates soon... ⛩️🥷🏿   
+The biggest clash of the century. 🐲💥 The battle royal of humanity's cream. ⚔️ The Billionaire Dojo opens its gates... ⛩️🥷🏿   
 <div align="center">
 <img 
   src="https://raw.githubusercontent.com/BillionaireDojo/.github/main/assets/billionairedojo.jpg" 
@@ -31,10 +31,21 @@ When you mint your billionaire, it will get 5 stats and a balance. All stats ran
 🤗 <b>Empathy</b>: Well... don't expect your player's empathy to be sky-high. So if you happen to mint a player with high empathy hold on to it!     
 
 ### The Octagon   
-This is where the fighting takes place. The first thing players do here is select the level they want to play on.   
+This is where the fighting takes place. The outcome of a fight depends on the sum total of a player's stats, the higher the better, plus a degree of randomness that varies from level to level.
 
-The Octagon has 3 levels:    
-😈 <b>Maniac</b>: 
+The first thing players do here is select the level they want to play on. The Octagon has 3 levels:    
+😈 <b>Maniac</b>: For hardcore players. On each round, you risk a 500 balance, and the degree of randomness is high, so players with lower stats can come out victorious.     
+🫡 <b>Normal</b>: On each round, players risk 300 balance. There is a medium degree of randomness.    
+👼 <b>Baby</b>: Easy-peasy. Best for first-timers. You risk 150 balance and randomness is low.    
+
+<b>💭 Should I stay or should I go?</b>     
+You can decide to leave your player in The Octagon for <i>n</i> number of rounds, or just pick a random match, fight it out, and go. If you leave your player in The Octagon, it will fight any random player, until the number of rounds has passed, or its balance hits zero. If you pick a random fight you will know the result instantaneously. 
+
+🤕😴 <b>Recovery zone</b>:
+A common trait in all billionaires is that they can come back from setbacks stronger, so don't worry if your player's balance hits zero, they're still useful. Just put them in the recovery zone, wait some time, and their balance will rise again. Keep in mind though, that you can't come back forever, your balance will be a little less each time you recover...    
+
+🔥 <b> Will it all end up in flames...? </b> 🔥    
+Once all the players from a given team have hit 0 balance, that team is gone for good. The game ends when there is only one team with a balance above zero.    
 
 ## 🥷🏿 Technology 🥷🏿
 (for geeks and shadowy super coders...)
