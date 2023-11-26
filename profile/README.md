@@ -15,7 +15,7 @@ But hey, what's stopping us from making the simulation timeline even more weird?
    
 Billionaire Dojo is a blockchain-based game where tech billionaires can be minted as NFTs and entered into matches against each other. Each billionaire represents a team (i.e. Team Elon, Team Zuck, etc.), and the game's goal is to take the balance of other teams and make your team more wealthy. Other teams can also be ousted from the game if all their players' balance goes down to zero. In the end, there can be only one.   
 
-Our goal is to create a fun, simple, funny game that makes people laugh and takes their minds off all the bullshit that's happening in the world right now at least for a little while. We live on <b>the Lukso blockchain</b>, the perfect ecosystem for fun-loving projects tapping into the cultural zeitgeist of our time. 
+Our goal is to create a fun game that makes people laugh and takes their minds off all the bullshit that's happening in the world right now at least for a little while. We live on <b>the Lukso blockchain</b>, the perfect ecosystem for fun-loving projects tapping into the cultural zeitgeist of our time. 
 
 ## 🐲 Game mechanics 🐲    
 
