@@ -47,7 +47,29 @@ A common trait in all billionaires is that they can come back from setbacks stro
 🔥 <b> Will it all end up in flames...? </b> 🔥    
 Once all the players from a given team have hit 0 balance, that team is gone for good. The game ends when there is only one team with a balance above zero.    
 
-## 🥷🏿 Technology 🥷🏿
-(for geeks and shadowy super coders...)
+## 🥷🏿 For shadowy super coders... 🥷🏿    
+Our smart contracts are written in Solidity and deployed on the Lukso blockchain. There are 3 main contracts:    
+#### 1. BillionaireDojo.sol:    
+- `LSP8IdentifiableDigitalAsset` standard
+- This contract is responsible for minting the Billionaire Dojo NFTs, assigning random stats to each NFT, storing balances, and maintaining metadata.
+- We make use of unique `LSP8` features such as rich metadata with `_setData()`:
+    - We set the creator info so we are attributed on-chain for our work.
+    - We set the stats of each NFT here. With other NFT standards, this would've been more difficult. The LSP standards make this operation feel idiomatic.
+ 
+#### 2. FightLogic.sol:     
+- Responsible for one thing: deciding the winner in a given fight
+- Has one method: `function fight(uint256 player1, uint256 player2) public view returns (uint256 winner)`
+- If the community comes up with a more interesting fight logic, this contract can be swapped with a new one any time
 
-## 🚀 Roadmap 🚀
+#### 3. Octagon.sol:    
+- Players use this contract to enter and leave The Octagon, pick fights, and enter and leave the recovery zone
+- Contains most of the game logic
+- Responsible for announcing the game-winner
+- Once the game ends, the octagon contract can be replaced with a new one in `BillionaireDojo.sol`, and a new game can begin. The show can go on forever... 🔥
+## 🚀 Roadmap 🚀    
+- [ ] Win the 10K prize in the [Lukso BuildUP #2 Hackathon](https://app.buidlbox.io/lukso/build-up-2) for Culture & Entertainment
+- [ ] Spend part of the prize money to build our community on socials - our [X (formerly Twitter)](https://twitter.com/BillionaireDojo) already has 1.2K followers
+- [ ] Make sure our contracts are robust
+- [ ] Launch on <b>Lukso Mainnet</b> and be the biggest, most popular NFT project there
+- [ ] Continue to be an integral part of the Lukso community, drive adoption and usage of the Lukso ecosystem
+- [ ] Continue improving our game and making it even more FUN
